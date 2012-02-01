@@ -3,11 +3,9 @@
 one:
   title: MyString
   description: MyText
-  location: MyString
   email: MyString
 
 two:
   title: MyString
   description: MyText
-  location: MyString
   email: MyString

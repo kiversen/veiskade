@@ -1,7 +1,9 @@
 Veiskade::Application.routes.draw do
-  get "home/index"
+  devise_for :admins
 
-  resources :posts
+  resources :reports
+
+  get "home/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

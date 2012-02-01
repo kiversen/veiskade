@@ -59,5 +59,8 @@ module Veiskade
     # Stylesheet
     config.app_generators.stylesheet_engine :less
     config.assets.initialize_on_precompile = false
+
+    # Mailprovider
+    config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   end
 end

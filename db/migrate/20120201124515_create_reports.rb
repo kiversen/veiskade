@@ -1,9 +1,8 @@
-class CreatePosts < ActiveRecord::Migration
+class CreateReports < ActiveRecord::Migration
   def change
-    create_table :posts do |t|
+    create_table :reports do |t|
       t.string :title
       t.text :description
-      t.string :location
       t.string :email
 
       t.timestamps
